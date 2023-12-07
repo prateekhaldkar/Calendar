@@ -1,0 +1,109 @@
+body {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#tbl {
+    border: 1px solid #999;
+    width: 70%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+#tbl td,
+#tbl th {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    height: 50px;
+    width: 14%;
+}
+
+#tbl thead tr {
+    background-color: #64748b;
+    color: #fff;
+}
+
+#tbl tbody td {
+    text-align: center;
+    font-weight: bold;
+    color: #475569;
+}
+
+caption {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: verdana;
+    color: #1e293b;
+    padding: 10px;
+}
+
+select {
+    font-size: 32px;
+}
+
+#sel {
+    text-align: center;
+    margin: 50px;
+}
+
+#yrlar,
+#yrrar {
+    height: 24px;
+}
+
+#yrcl {
+    height: 30px;
+    cursor: pointer;
+}
+
+#tbl_yrs {
+    border: 1px solid white;
+    width: 70%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+#tbl_mnths {
+    border: 1px solid white;
+    width: 70%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+#tbl_mnths td {
+    border-collapse: collapse;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+#tbl_yrs td {
+    border-collapse: collapse;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+#y {
+    display: none;
+}
+
+.t {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.yr_rc {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#z {
+    display: none;
+}
